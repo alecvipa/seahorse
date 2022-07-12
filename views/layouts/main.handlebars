@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="facebook-domain-verification" content="2dtfi3kofxydcglrs1ukucybyaxvii" />
     <meta name="description"
-        content="Somos una constructora 100% mexicana. Brindamos servicios de alta calidad y atención personalizada.">
+        content="Seahorse es una empresa innovadora que ofrece servicios de comercialización de productos, contamos con un equipo de expertos que tienen como prioridad satisfacer las necesidades de nuestros clientes en el lugar y momento adecuado.">
     <meta name="keywords"
         content="Consultoría empresarial, Consultoría estratégica , Empresa de consultoría , Consultoría financiera, Consultoría administrativa , Servicios de consultoría , Consultoría especializada">
-    <title>One Click Suministros S.A de C.V.</title>
+    <title>Seahorse Suministros S.A. de C.V.</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -19,9 +19,9 @@
     <script src="https://kit.fontawesome.com/a077a0470e.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <link rel="shortcut icon" href="assets/images/logoCapital.jpeg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- MDB -->
     <link rel="stylesheet" href="/assets/css/mdb.min.css" />
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
@@ -30,6 +30,33 @@
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: "Lato", sans-serif
+        }
+
+        .mySlides {
+            display: none
+        }
+
+        .w3-tag,
+        .fa {
+            cursor: pointer
+        }
+
+        .w3-tag {
+            height: 15px;
+            width: 15px;
+            padding: 0;
+            margin-top: 6px
+        }
+    </style>
 
     <script>
         function submitEmailForm(form) {
@@ -60,23 +87,53 @@
     <div class="bodyPrincipal">
         {{{body}}}
     </div>
-    {{!-- FOOTER STARTS --}}
-    <div class="footer">
-        <div class="container textr-center">
-            <div class="row">
+    <!-- Footer -->
 
-                <div class="col-md-3"></div>
-                <div class="col-md-6 text-center">
-                    <p><b>One Click Suministros S.A de C.V. </b> Todos los derechos reservados. Sus datos están
-                        protegidos por
-                        la ley de privacidad. <span><a href="/privacidad" style="color:  #4b535d ;">Visita nuestra
-                                política de privacidad</a></span></p>
-                </div>
-                <div class="col-md-3"></div>
-            </div>
+    <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+        <h4>Footer</h4>
+        <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
         </div>
-    </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                class="w3-hover-text-green">w3.css</a></p>
+    </footer>
 
+
+    <script>
+        // Slideshow
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demodots");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length };
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-white";
+        }
+    </script>
 
     <script src="/assets/js/script.js"></script>
     <!-- MDB -->

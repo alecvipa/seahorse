@@ -16,6 +16,9 @@
     margin-right: auto;
     
 }
+.logoAzulStyle{
+    width: 30%;
+}
 .font2Rem{
     font-size: 2rem !important;
 }
@@ -27,104 +30,29 @@
     color: white;
 }
 
-.bannerDivInicio{
+.bannerInicio{
     height: 40rem;
-    background-image: url("/assets/images/bannerOneClickInicio.jpg");
+    background-image: url('/assets/images/2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 25% 315%;
 }
+.slogan{
+    padding: 2%;
+}
+.firstBG{
+    background-color: #c7efcf ;
+}
+.secondBG{
+    background-color: #9bf0ac ;
+}
+.thirdBG{
+    background-color: #23db4c;
+    
+}
+.fourthBG{
+    background-color: #cfe5ff ;
 
-.computoDiv{
-    height: 19rem;
-    background-image: url("/assets/images/computo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -7%;
-}
-.limpieza{
-    height: 19rem;
-    background-image: url("/assets/images/limpieza.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -7%;
-
-}
-.mobiliarioDiv{
-    height: 19rem;
-    background-image: url("/assets/images/mobiliarioparaoficina.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -7%;
-
-}
-.covid{
-    height: 19rem;
-    background-image: url("/assets/images/productosCovid.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -7%;
-
-}
-.papeleria{
-    height: 19rem;
-    background-image: url("/assets/images/papeleria.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -7%;
-
-}
-.enlatados{
-    height: 19rem;
-    background-image: url("/assets/images/enlatados.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -7%;
-
-}
-.mask-custom-1 {
-    backdrop-filter: blur(15px) !important;
-    background-color: rgba(255, 255, 255, .2) !important;
-    border-radius: 3em;
-    border: 2px solid rgba(255, 255, 255, .1) !important;
-    background-clip: padding-box !important;
-    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03) !important;
-}
-.bgBlue{
-    padding-top: 5%;
-    height: 640px;
-}
-.valueProp{
-    padding: 1%;
-}
-.imageCell{
-    width: 56% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    display: block !important;
-}
-.paragraphSomos{
-    width: 70% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-top: 1% !important;
-}
-.logo2One{
-    margin-top: -3%;
-    margin-bottom: 2%;
-}
-.otrosServices{
-    margin-top: -10%;
-}
-#contacto{
-    margin-top: -5%;
 }
   
 @media (max-width: 767px) {
@@ -135,14 +63,6 @@
 
 @media (min-width: 992px) {
    
-    .contEmpresa{
-        margin-top: -3%;
-        margin-bottom: 3%;
-    }
-   
-    .bannerDivInicio{
-        height: 43rem;
-    }
     .footer{
         /* margin-top: -9%; */
         padding-bottom: 2%;
@@ -159,45 +79,5 @@
 }
 
 @media(max-width:991px){
-    .otrosServices{
-        margin-top: -50% !important;
-    }
-    #contacto{
-        margin-top: -25%;
-    }
-    .imageFinal{
-        height: 20rem !important;
-    }
-    .paragraphSomos{
-        width: 100% !important;
-        margin-top: 5% !important;
-    }
     
-    .listTextList{
-        margin-left: 4% !important;
-    }
-    .contEmpresa{
-        margin-top: 10%;
-    }
-
-    .logoInicioOneClick{
-        margin-left: auto !important;
-        margin-right: auto !important;
-        display: block !important;
-    }
-    
-    .bannerDivInicio{
-        height: 35rem;
-        background-position: 49% 5%;
-        background-image: url("/assets/images/oneClickRes.jpg");
-    }
-   
-    .footer{
-        padding-top: 10%;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-    .responsiveMarginCard{
-        margin-top: 5%;
-    }
 }
