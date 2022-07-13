@@ -54,6 +54,23 @@
     background-color: #cfe5ff ;
 
 }
+.btnSea{
+    background-color: #cfe5ff !important;
+
+}
+button:hover{
+    transition: 0.3s;
+}
+.listIcon{
+    color: #2f76cd;
+}
+.logoPngColor{
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
   
 @media (max-width: 767px) {
     .bg-image {
@@ -67,6 +84,9 @@
         /* margin-top: -9%; */
         padding-bottom: 2%;
     }
+    .listItem{
+        font-size: 2rem !important;
+    }
     
     
     .rounded-tr-lg-0 {
@@ -79,5 +99,16 @@
 }
 
 @media(max-width:991px){
+    .bannerInicio{
+        height: 31rem;
+        background-position: 68% 315%;
+    }
+    .slogan{
+        margin-top: 4%;
+    }
+    .logoPngColor{
+        margin-top: 25%;
+        width: 100%;
+    }
     
 }
