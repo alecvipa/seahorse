@@ -133,5 +133,17 @@ button:hover{
         margin-top: 11%;
     
     }
+    .productosBg{
+        background-image: url('/assets/images/bannerProductos2.jpg');
+        height: 16rem;
+        background-position: 60% 50%;
+
+    }
+    .productosDiv{
+        margin-top: 10%;
+    }
+    .marginRespCard{
+        margin-top: 7%;
+    }
     
 }
