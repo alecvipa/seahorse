@@ -29,6 +29,9 @@
     background-color: #52a4a5;
     color: white;
 }
+.blueNavy{
+    color: #2f76cd !important;
+}
 
 .bannerInicio{
     height: 40rem;
@@ -36,6 +39,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bannerDivPriv{
+    height: 40rem;
+    background-image: url('/assets/images/bannerPrivacidad.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .seaCimg{
@@ -54,6 +65,7 @@
     background-size: cover;
     background-position: 25% 50%;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 .slogan{
     padding: 2%;
@@ -81,6 +93,10 @@ button:hover{
 }
 .listIcon{
     color: #2f76cd;
+}
+.formItem{
+    background-color: #2f76cd !important;
+    color: white !important;
 }
 .logoPngColor{
     width: 70%;

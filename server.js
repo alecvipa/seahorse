@@ -45,6 +45,7 @@ app.get('/:params?', function (req, res) {
     res.render(params);
 })
 
+
 // Nodemailer route
 
 app.post("/ajax/email", function (request, response) {
@@ -66,8 +67,8 @@ app.post("/ajax/email", function (request, response) {
     var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Servicio de interés:${request.body.message} </p>`;
     var mail = {
         from: '"Team: Xyncs Web Studio',
-        to: 'servicio.clientes@oneclicksuministros.com',
-        subject: '¡Alguien ha dejado sus datos en One Click!',
+        to: 'informes@seahorsesuministros.com',
+        subject: '¡Alguien ha dejado sus datos en Seahorse!',
         html: htmlBody
     };
     transporter.sendMail(mail, function (err, info) {
@@ -78,7 +79,6 @@ app.post("/ajax/email", function (request, response) {
         };
     });
 });
-
 
 
 
