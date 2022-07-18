@@ -133,9 +133,14 @@ button:hover{
 }
 
 @media(max-width:991px){
-    .bannerInicio{
+    /* .bannerInicio{
         height: 31rem;
         background-position: 68% 315%;
+    } */
+    .bannerInicio{
+        height: 25rem;
+        background-image: url('/assets/images/seahorseStory.jpg');
+        background-position: 0% 30%;
     }
     .slogan{
         margin-top: 4%;
